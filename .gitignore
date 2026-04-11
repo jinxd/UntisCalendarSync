@@ -1,0 +1,37 @@
+# Xcode
+*.xcuserdata
+xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.xcarchive
+*.dSYM.zip
+*.dSYM
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Credentials / secrets
+*.env
+.env*
+secrets.*
+credentials.*
+
+# Python (untis_mcp.py dependencies)
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
